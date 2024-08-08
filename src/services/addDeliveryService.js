@@ -1,0 +1,231 @@
+export const addDeliveryServiceData = [
+  {
+    DelID: "1",
+    DelCustomer: "Abishake khennd",
+    DelDate: "14/8/2021",
+    DelSalesOrderNo: "MM/EQ/21-22/0007",
+    DelQuotationNo: "MM/EQ/21-22/0007",
+    DelNo: "MM/EQ/21-22/0007",
+    DelMobile: "7854962154",
+    DelSalesExecutive: "Rajesh Sharma",
+    DelStatus: "Pending",
+    DelAction: "view-action",
+    menu: [
+      {
+        label: "View",
+        link: "/admin/sales/selected-delivery-order-view",
+      },
+      {
+        label: "Create Invoice",
+        link: "/admin/sales/invoice/create",
+      },
+    ],
+  },
+  {
+    DelID: "2",
+    DelDate: "13/8/2021",
+    DelNo: "MM/EQ/21-22/0006",
+    DelSalesOrderNo: "MM/EQ/21-22/0007",
+    DelQuotationNo: "MM/EQ/21-22/0007",
+    DelCustomer: "Ganesh Bhandav",
+    grossAmount: "121200",
+    action: "action",
+    enqMobile: "7854962154",
+    enqSalesExecutive: "Anisha Karmakar",
+    DelStatus: "Pending",
+    DelAction: "view-action",
+    menu: [
+      {
+        label: "View",
+        link: "/admin/sales/selected-delivery-order-view",
+      },
+      {
+        label: "Create Invoice",
+        link: "/admin/sales/invoice/create",
+      },
+    ],
+  },
+  {
+    DelID: "3",
+    DelDate: "13/8/2021",
+    DelNo: "MM/EQ/21-22/0004",
+    DelSalesOrderNo: "MM/EQ/21-22/0007",
+    DelQuotationNo: "MM/EQ/21-22/0007",
+    DelCustomer: "Mushavaf Kadn",
+    DelMobile: "7854962154",
+    DelSalesExecutive: "Md Rahitulla Hossain Gazi",
+    DelStatus: "Pending",
+    DelAction: "view-action",
+    menu: [
+      {
+        label: "View",
+        link: "/admin/sales/selected-delivery-order-view",
+      },
+      {
+        label: "Create Invoice",
+        link: "/admin/sales/invoice/create",
+      },
+    ],
+  },
+  {
+    DelID: "4",
+    DelDate: "12/8/2021",
+    DelNo: "MM/EQ/21-22/0003",
+    DelSalesOrderNo: "MM/EQ/21-22/0007",
+    DelQuotationNo: "MM/EQ/21-22/0007",
+    DelCustomer: "Naued Ahmed",
+    DelssAmount: "155200",
+    DelMobile: "7854962154",
+    DelSalesExecutive: "Raju Singh",
+    DelStatus: "Pending",
+    DelAction: "view-action",
+    menu: [
+      {
+        label: "View",
+        link: "/admin/sales/selected-delivery-order-view",
+      },
+      {
+        label: "Create Invoice",
+        link: "/admin/sales/invoice/create",
+      },
+    ],
+  },
+  {
+    DelID: "5",
+    DelDate: "12/8/2021",
+    DelNo: "MM/EQ/21-22/0002",
+    DelSalesOrderNo: "MM/EQ/21-22/0007",
+    DelQuotationNo: "MM/EQ/21-22/0007",
+    DelCustomer: "HM Plaza",
+    DelMobile: "7854962154",
+    DelSalesExecutive: "Kapil Ale",
+    DelStatus: "Pending",
+    DelAction: "view-action",
+    menu: [
+      {
+        label: "View",
+        link: "/admin/sales/selected-delivery-order-view",
+      },
+      {
+        label: "Create Invoice",
+        link: "/admin/sales/invoice/create",
+      },
+    ],
+  },
+];
+
+export const addDeliveryServiceListData = [
+  {
+    enqCustomer: "Abishake khennd",
+    enquire_serial: "1",
+    enqDate: "14/8/2021",
+    enqSalesOrderNo: "MM/EQ/21-22/0007",
+    enqQuotationNo: "MM/EQ/21-22/0007",
+    enqNo: "MM/EQ/21-22/0007",
+    enqMobile: "7854962154",
+    enqSalesExecutive: "Rajesh Sharma",
+    enqStatus: "Pending",
+    enqAction: "view-action",
+    menu: [
+      {
+        label: "View",
+        link: "#",
+      },
+      {
+        label: "Create Delivery",
+        link: "/admin/sales/create-delivery-order",
+      },
+    ],
+  },
+  {
+    enquire_serial: "2",
+    enqDate: "13/8/2021",
+    enqNo: "MM/EQ/21-22/0006",
+    enqSalesOrderNo: "MM/EQ/21-22/0007",
+    enqQuotationNo: "MM/EQ/21-22/0007",
+    enqCustomer: "Ganesh Bhandav",
+    grossAmount: "121200",
+    action: "action",
+    enqMobile: "7854962154",
+    enqSalesExecutive: "Anisha Karmakar",
+    enqStatus: "Pending",
+    enqAction: "view-action",
+    menu: [
+      {
+        label: "View",
+        link: "/admin/sales/add-delivery-order-view",
+      },
+      {
+        label: "Create Delivery",
+        link: "/admin/sales/create-delivery-order",
+      },
+    ],
+  },
+  {
+    enquire_serial: "3",
+    enqDate: "13/8/2021",
+    enqNo: "MM/EQ/21-22/0004",
+    enqSalesOrderNo: "MM/EQ/21-22/0007",
+    enqQuotationNo: "MM/EQ/21-22/0007",
+    enqCustomer: "Mushavaf Kadn",
+    enqMobile: "7854962154",
+    enqSalesExecutive: "Md Rahitulla Hossain Gazi",
+    enqStatus: "Pending",
+    enqAction: "view-action",
+    menu: [
+      {
+        label: "View",
+        link: "/admin/sales/add-delivery-order-view",
+      },
+      {
+        label: "Create Delivery",
+        link: "/admin/sales/create-delivery-order",
+      },
+    ],
+  },
+  {
+    enquire_serial: "4",
+    enqDate: "12/8/2021",
+    enqNo: "MM/EQ/21-22/0003",
+    enqSalesOrderNo: "MM/EQ/21-22/0007",
+    enqQuotationNo: "MM/EQ/21-22/0007",
+    enqCustomer: "Naued Ahmed",
+    enqAmount: "155200",
+    enqMobile: "7854962154",
+    enqSalesExecutive: "Raju Singh",
+    enqStatus: "Pending",
+    enqAction: "view-action",
+    menu: [
+      {
+        label: "View",
+        link: "/admin/sales/add-delivery-order-view",
+      },
+      {
+        label: "Create Delivery",
+        link: "/admin/sales/create-delivery-order",
+      },
+    ],
+  },
+  {
+    enquire_serial: "5",
+    enqDate: "12/8/2021",
+    enqNo: "MM/EQ/21-22/0002",
+    enqSalesOrderNo: "MM/EQ/21-22/0007",
+    enqQuotationNo: "MM/EQ/21-22/0007",
+    enqCustomer: "HM Plaza",
+    enqMobile: "7854962154",
+    enqSalesExecutive: "Kapil Ale",
+    enqStatus: "Pending",
+    enqAction: "view-action",
+    menu: [
+      {
+        label: "View",
+        link: "/admin/sales/add-delivery-order-view",
+      },
+      {
+        label: "Create Delivery",
+        link: "/admin/sales/create-delivery-order",
+      },
+    ],
+  },
+];

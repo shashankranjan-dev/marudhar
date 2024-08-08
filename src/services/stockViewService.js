@@ -1,0 +1,40 @@
+export const stockViewRowData = [
+    {
+        stpID:"1",
+        stpDate:"08/08/2021",
+        stpOpening:"100",
+        stpPurchase:"100",
+        stpPurchaseReturn:"20",
+        stpSales:"0",
+        stpSalesReturn:"20",
+        stpSalesAdj: "0",
+        stpClosing:"180",
+        stpRemarks:"Active",
+    },
+    {
+        stpID:"2",
+        stpDate:"10/08/2021",
+        stpOpening:"180",
+        stpPurchase:"0",
+        stpPurchaseReturn:"0",
+        stpSales:"20",
+        stpSalesReturn:"0",
+        stpSalesAdj: "0",
+        stpClosing:"160",
+        stpRemarks:"Active",
+    },
+    {
+        stpID:"3",
+        stpDate:"11/08/2021",
+        stpOpening:"160",
+        stpPurchase:"100",
+        stpPurchaseReturn:"0",
+        stpSales:"50",
+        stpSalesReturn:"50",
+        stpSalesAdj: "0",
+        stpClosing:"260",
+        stpRemarks:"Active",
+    },
+   
+  ];
+  

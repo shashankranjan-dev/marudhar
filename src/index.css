@@ -1,0 +1,15 @@
+:root {
+  --color-primary: "#3699FF";
+  --color-secondary: "#3f4254";
+  --font-color-dk: "#000";
+  --font-color-dull: "#3699FF";
+  --font-small: "13px";
+  --font-medium: "15px";
+  --font-large: "16px";
+  --font-bold: 600;
+  --font-semibold: 500;
+  --font-regular: 400;
+  --bg-white: #fff;
+  --border-radius: 4px;
+  --fontFaimly: "Poppins, Helvetica, sans-serif";
+}
